@@ -30,4 +30,7 @@ def stat(ttl,search):
             if stat(n,search) != None:
                 return stat(n,search)
 search = input('Введите название автомобиля: ')
-print(stat(title,search), 'тысяч')
+if stat(title,search) == None:
+    print('Такого названия не существет')
+else:
+    print(stat(title,search), 'тысяч автомобилей за 2020 год.')
