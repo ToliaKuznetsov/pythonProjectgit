@@ -33,4 +33,4 @@ search = input('Введите название автомобиля: ')
 if stat(title,search) == None:
     print('Такого названия не существет')
 else:
-    print(stat(title,search), 'тысяч автомобилей за 2020 год.')
+    print(stat(title,search), 'тысяч автомобилей было продано за 2020 год.')
