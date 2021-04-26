@@ -29,6 +29,8 @@ def stat(ttl,search):
         if type(n) == dict:
             if stat(n,search) != None:
                 return stat(n,search)
+
+
 search = input('Введите название автомобиля: ')
 if stat(title,search) == None:
     print('Такого названия не существет')
